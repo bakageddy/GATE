@@ -1,0 +1,172 @@
+#+title: GATE Syllabus
+#+date: 03/06/2024 Monday
+#+author: Dinesh Kumar G
+
+#+toc: nil
+#+author: nil
+
+* Syllabus:
+** Engineering Mathematics:
+*** Discrete Mathematics:
+- [ ] Propostional and First Order Logic
+- [ ] Sets
+- [ ] Relations
+- [ ] Functions
+- [ ] Partial Orders and Lattices
+- [ ] Monoids
+- [ ] Groups
+- [ ] Graphs
+  - [ ] Connectivity
+  - [ ] Matching
+  - [ ] Coloring
+- [ ] Combinatorics
+  - [ ] Counting
+  - [ ] Recurrence Relations
+  - [ ] Generating Functions
+
+*** Linear Algebra:
+- [ ] Matrices
+- [ ] Determinants
+- [ ] Systems of Linear Equations
+- [ ] Eigenvalues and Eigenvectors
+- [ ] LU Decomposition
+
+*** Calculus:
+- [ ] Limits
+- [ ] Continuity and Differentiability
+- [ ] Maxima and Minima
+- [ ] Mean Value Theorem
+- [ ] Integration
+
+*** Probability and Statistics:
+- [ ] Random Variables
+- [ ] Uniform, Normal, Exponential, Poisson and Binomial Distributions
+- [ ] Mean, Median, Mode and Standard Deviation
+- [ ] Conditional Probability and Bayes Theorem
+
+** Digital Logic:
+- [ ] Boolean Algebra
+- [ ] Combinational and Sequential Circuits
+- [ ] Minimization
+- [ ] Number Representation and Computer Arithmetic
+  - [ ] Fixed Point
+  - [ ] Floating Point
+
+** Computer Organization and Architecture:
+- [ ] Machine Instructions and Addressing Modes
+- [ ] ALU
+- [ ] Data path and Control Unit
+- [ ] Instruction Pipelining
+- [ ] Pipeline Hazards
+- [ ] Memory Hierarchy
+  - [ ] Cache
+  - [ ] Main Memory
+  - [ ] Secondary Storage
+- [ ] I/O Interface
+  - [ ] Interrupt
+  - [ ] DMA Mode
+
+** Programming and Data Structures:
+- [ ] Programming in C
+- [ ] Recursion
+- [ ] Arrays
+- [ ] Stacks
+- [ ] Queues
+- [ ] Linked Lists
+- [ ] Trees
+- [ ] Binary Search Trees
+- [ ] Binary Heaps
+- [ ] Graphs
+
+** Algorithms:
+- [ ] Searching
+- [ ] Sorting
+- [ ] Hashing
+- [ ] Asymptotic
+  - [ ] Space Complexity
+  - [ ] Time Complexity
+- [ ] Algorithm Design Techniques
+  - [ ] Greedy
+  - [ ] Dynamic Programming
+  - [ ] Divide and Conquer
+- [ ] Graph Traversals
+- [ ] Minimum Spanning Trees
+- [ ] Shortest Paths
+
+** Theory of Computation
+- [ ] Regular Expression and Finite Automata
+- [ ] Context Free Grammars
+- [ ] Push down automata
+- [ ] Regular and Context Free Languages
+- [ ] Pumping Lemma
+- [ ] Turing Machines and Undecidability
+
+** Compiler Design
+- [ ] Lexical Analysis
+- [ ] Parsing
+- [ ] Syntax-Directed Transalation
+- [ ] Runtime Environments
+- [ ] Intermediate Code Generation
+- [ ] Local Optimization
+- [ ] Data flow Analysis
+  - [ ] Constant Propagation
+  - [ ] Liveness Analysis
+  - [ ] Common Sub Expression Elimination
+
+** Operating System
+- [ ] System Calls
+- [ ] Processes
+- [ ] Threads
+- [ ] Interprocess Communication
+- [ ] Concurrency and Synchronization
+- [ ] Deadlock
+- [ ] CPU and I/O Scheduling
+- [ ] Memory Management and Virtual Memory
+- [ ] File Systems
+
+** Databases
+- [ ] E-R Model
+- [ ] Relational Model
+  - [ ] Relational Algebra
+  - [ ] Tuple Calculus
+- [ ] SQL
+- [ ] Integrity Constraints
+- [ ] Normal Forms
+- [ ] File Organization
+- [ ] Indexing (B & B+ Trees)
+- [ ] Transactions and Concurrency Control
+
+** Computer Networks
+- [ ] Concept of Layering
+  - [ ] OSI Protocal Stacks
+- [ ] Basics of Packet, Circuit and Virtual Circuit Switching
+- [ ] Data Link Layer
+  - [ ] Framing
+  - [ ] Error Detection
+  - [ ] Medium Access Control
+- [ ] Ethernet Bridging
+  - [ ] Routing Protocols
+    - [ ] Shortest path
+    - [ ] Flooding
+    - [ ] Distance Vector
+    - [ ] Link State Routing
+  - [ ] Fragmentation and IP addressing
+  - [ ] IPv4
+  - [ ] CIDR Notation
+- [ ] IP Support Protocols
+  - [ ] ARP
+  - [ ] DHCP
+  - [ ] ICMP
+  - [ ] NAT (Network Address Translation)
+- [ ] Transport Layer
+  - [ ] Flow Control
+  - [ ] Congestion Control
+  - [ ] UDP
+  - [ ] TCP
+- [ ] Sockets
+- [ ] Application layer protocols
+  - [ ] DNS
+  - [ ] HTTP
+  - [ ] SMTP
+  - [ ] FTP
+  - [ ] EMAIL
