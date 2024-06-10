@@ -125,13 +125,13 @@
 - [ ] File Systems
 
 ** Databases
-- [ ] E-R Model
-- [ ] Relational Model
-  - [ ] Relational Algebra
+- [X] E-R Model
+- [-] Relational Model
+  - [X] Relational Algebra
   - [ ] Tuple Calculus
-- [ ] SQL
-- [ ] Integrity Constraints
-- [ ] Normal Forms
+- [X] SQL
+- [X] Integrity Constraints
+- [X] Normal Forms
 - [ ] File Organization
 - [ ] Indexing (B & B+ Trees)
 - [ ] Transactions and Concurrency Control
