@@ -127,15 +127,16 @@
 
 ** Databases
 - [X] E-R Model
-- [-] Relational Model
+- [X] Relational Model
   - [X] Relational Algebra
-  - [ ] Tuple Calculus
+  - [X] Tuple Calculus
 - [X] SQL
 - [X] Integrity Constraints
 - [X] Normal Forms
 - [X] File Organization
-- [ ] Indexing (B & B+ Trees)
+- [X] Indexing (B & B+ Trees)
 - [ ] Transactions and Concurrency Control
+
 
 ** Computer Networks
 - [ ] Concept of Layering
