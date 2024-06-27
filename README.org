@@ -7,7 +7,7 @@
 #+option: date: nil
 
 * Syllabus:
-** Engineering Mathematics:
+** [ ] Engineering Mathematics:
 *** Discrete Mathematics:
 - [ ] Propostional and First Order Logic
 - [ ] Sets
@@ -45,7 +45,7 @@
 - [ ] Mean, Median, Mode and Standard Deviation
 - [ ] Conditional Probability and Bayes Theorem
 
-** Digital Logic:
+** [ ] Digital Logic:
 - [ ] Boolean Algebra
 - [ ] Combinational and Sequential Circuits
 - [ ] Minimization
@@ -53,7 +53,7 @@
   - [ ] Fixed Point
   - [ ] Floating Point
 
-** Computer Organization and Architecture:
+** [ ] Computer Organization and Architecture:
 - [ ] Machine Instructions and Addressing Modes
 - [ ] ALU
 - [ ] Data path and Control Unit
@@ -67,7 +67,7 @@
   - [ ] Interrupt
   - [ ] DMA Mode
 
-** Programming and Data Structures:
+** [ ] Programming and Data Structures:
 - [ ] Programming in C
 - [ ] Recursion
 - [ ] Arrays
@@ -79,7 +79,7 @@
 - [ ] Binary Heaps
 - [ ] Graphs
 
-** Algorithms:
+** [ ] Algorithms:
 - [ ] Searching
 - [ ] Sorting
 - [ ] Hashing
@@ -94,7 +94,7 @@
 - [ ] Minimum Spanning Trees
 - [ ] Shortest Paths
 
-** Theory of Computation
+** [ ] Theory of Computation
 - [ ] Regular Expression and Finite Automata
 - [ ] Context Free Grammars
 - [ ] Push down automata
@@ -102,7 +102,7 @@
 - [ ] Pumping Lemma
 - [ ] Turing Machines and Undecidability
 
-** Compiler Design
+** [ ] Compiler Design
 - [ ] Lexical Analysis
 - [ ] Parsing
 - [ ] Syntax-Directed Transalation
@@ -114,7 +114,7 @@
   - [ ] Liveness Analysis
   - [ ] Common Sub Expression Elimination
 
-** Operating System
+** [ ] Operating System
 - [ ] System Calls
 - [ ] Processes
 - [ ] Threads
@@ -124,8 +124,7 @@
 - [ ] CPU and I/O Scheduling
 - [ ] Memory Management and Virtual Memory
 - [ ] File Systems
-
-** Databases
+** [X] Databases
 - [X] E-R Model
 - [X] Relational Model
   - [X] Relational Algebra
@@ -135,10 +134,9 @@
 - [X] Normal Forms
 - [X] File Organization
 - [X] Indexing (B & B+ Trees)
-- [ ] Transactions and Concurrency Control
+- [X] Transactions and Concurrency Control
 
-
-** Computer Networks
+** [ ] Computer Networks
 - [ ] Concept of Layering
   - [ ] OSI Protocal Stacks
 - [ ] Basics of Packet, Circuit and Virtual Circuit Switching
