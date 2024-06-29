@@ -115,7 +115,7 @@
   - [ ] Common Sub Expression Elimination
 
 ** [ ] Operating System
-- [ ] System Calls
+- [X] System Calls
 - [ ] Processes
 - [ ] Threads
 - [ ] Interprocess Communication
