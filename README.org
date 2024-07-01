@@ -8,7 +8,7 @@
 
 * Syllabus:
 ** [ ] Engineering Mathematics:
-*** Discrete Mathematics:
+*** [ ] Discrete Mathematics:
 - [ ] Propostional and First Order Logic
 - [ ] Sets
 - [ ] Relations
@@ -25,21 +25,21 @@
   - [ ] Recurrence Relations
   - [ ] Generating Functions
 
-*** Linear Algebra:
+*** [ ] Linear Algebra:
 - [ ] Matrices
 - [ ] Determinants
 - [ ] Systems of Linear Equations
 - [ ] Eigenvalues and Eigenvectors
 - [ ] LU Decomposition
 
-*** Calculus:
+*** [ ] Calculus:
 - [ ] Limits
 - [ ] Continuity and Differentiability
 - [ ] Maxima and Minima
 - [ ] Mean Value Theorem
 - [ ] Integration
 
-*** Probability and Statistics:
+*** [ ] Probability and Statistics:
 - [ ] Random Variables
 - [ ] Uniform, Normal, Exponential, Poisson and Binomial Distributions
 - [ ] Mean, Median, Mode and Standard Deviation
@@ -116,7 +116,7 @@
 
 ** [ ] Operating System
 - [X] System Calls
-- [ ] Processes
+- [X] Processes
 - [ ] Threads
 - [ ] Interprocess Communication
 - [ ] Concurrency and Synchronization
