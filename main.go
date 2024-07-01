@@ -6,6 +6,6 @@ import (
 
 func main() {
 	handler := http.FileServer(http.Dir("./static"))
-	http.Handle("/static/", handler)
+	http.Handle("/static/", http.StripPrefix("/static", handler))
 	http.ListenAndServe(":8080", nil)
 }
