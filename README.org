@@ -117,8 +117,8 @@
 ** [ ] Operating System
 - [X] System Calls
 - [X] Processes
-- [ ] Threads
-- [ ] Interprocess Communication
+- [X] Threads
+- [X] Interprocess Communication
 - [ ] Concurrency and Synchronization
 - [ ] Deadlock
 - [ ] CPU and I/O Scheduling
