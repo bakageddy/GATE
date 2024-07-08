@@ -1,0 +1,14 @@
+html {
+	background-color: #1d2021;
+}
+
+/* a:link,  a:visited { */
+/* 	text-decoration: unset; */
+/* 	color: #ebdbb2; */
+/* } */
+
+div.navbar {
+	background-color: #282828;
+	display: flexbox;
+	align-content: space-between;
+}

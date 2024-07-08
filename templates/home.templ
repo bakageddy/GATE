@@ -1,0 +1,35 @@
+package templates
+
+var gruvbox_black = "#1d2021";
+var gruvbox_white = "#ebdbb2";
+
+css a() {
+	text-decoration: unset;
+	color: gruvbox_white;
+}
+
+css navbar() {
+	background-color: gruvbox_black;
+	display: flexbox;
+}
+
+templ Home() {
+	<html>
+		<head>
+			<script src="https://unpkg.com/htmx.org@2.0.0"></script>
+			<link rel="stylesheet" href="/static/index.css"></link>
+			<title>GATE</title>
+		</head>
+		<body>
+			<div class={ navbar().ClassName() }>
+				<a class={ a().ClassName() } href="/static/notes/">
+					Notes
+				</a>
+
+				<a href="/static/pyqp">
+					PYQ
+				</a>
+			</div>
+		</body>
+	</html>
+} 
