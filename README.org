@@ -119,8 +119,8 @@
 - [X] Processes
 - [X] Threads
 - [X] Interprocess Communication
-- [ ] Concurrency and Synchronization
-- [ ] Deadlock
+- [X] Concurrency and Synchronization
+- [X] Deadlock
 - [ ] CPU and I/O Scheduling
 - [ ] Memory Management and Virtual Memory
 - [ ] File Systems
