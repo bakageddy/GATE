@@ -54,8 +54,8 @@
   - [ ] Floating Point
 
 ** [ ] Computer Organization and Architecture:
-- [ ] Machine Instructions and Addressing Modes
-- [ ] ALU
+- [X] Machine Instructions and Addressing Modes
+- [X] ALU
 - [ ] Data path and Control Unit
 - [ ] Instruction Pipelining
 - [ ] Pipeline Hazards
@@ -114,16 +114,16 @@
   - [ ] Liveness Analysis
   - [ ] Common Sub Expression Elimination
 
-** [ ] Operating System
+** [X] Operating System
 - [X] System Calls
 - [X] Processes
 - [X] Threads
 - [X] Interprocess Communication
 - [X] Concurrency and Synchronization
 - [X] Deadlock
-- [ ] CPU and I/O Scheduling
-- [ ] Memory Management and Virtual Memory
-- [ ] File Systems
+- [X] CPU and I/O Scheduling
+- [X] Memory Management and Virtual Memory
+- [X] File Systems
 ** [X] Databases
 - [X] E-R Model
 - [X] Relational Model
