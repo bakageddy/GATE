@@ -53,16 +53,16 @@
   - [ ] Fixed Point
   - [ ] Floating Point
 
-** [ ] Computer Organization and Architecture:
+** [X] Computer Organization and Architecture:
 - [X] Machine Instructions and Addressing Modes
 - [X] ALU
 - [X] Data path and Control Unit
 - [X] Instruction Pipelining
 - [X] Pipeline Hazards
-- [ ] Memory Hierarchy
-  - [ ] Cache
-  - [ ] Main Memory
-  - [ ] Secondary Storage
+- [X] Memory Hierarchy
+  - [X] Cache
+  - [X] Main Memory
+  - [X] Secondary Storage
 - [X] I/O Interface
   - [X] Interrupt
   - [X] DMA Mode
