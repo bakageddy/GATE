@@ -1,5 +1,7 @@
 module github.com/bakageddy/gate
 
-go 1.22.3
+go 1.23.0
 
-require github.com/a-h/templ v0.2.747
+toolchain go1.23.9
+
+require github.com/a-h/templ v0.3.865

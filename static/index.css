@@ -1,14 +1,70 @@
-html {
-	background-color: #1d2021;
+html, body {
+	min-width: 100%;
+	overflow-x: unset;
+	overflow-y: unset;
+	display: flex;
+	flex-direction: column;
+	background-color: #1D2021;
+	color: #d4be97;
 }
 
-/* a:link,  a:visited { */
-/* 	text-decoration: unset; */
-/* 	color: #ebdbb2; */
-/* } */
+header {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
 
-div.navbar {
+h1 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2rem;
+	margin-block: 0.5rem;
+}
+
+nav {
 	background-color: #282828;
-	display: flexbox;
-	align-content: space-between;
+	display: flex;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.container {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.opener-container .opener {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 4rem;
+	font-weight: 900;
+	color: rgba(255, 255, 255, 0.1);
+	background-clip: text;
+	background-image: url("/static/images/textbg.jpg");
+	background-repeat: repeat;
+	animation: text-background-movement 10s ease-in-out infinite;
+	text-transform: uppercase;
+}
+
+@keyframes text-background-movement {
+	0%, 100% {
+		background-position: left bottom;
+	}
+
+	25% {
+		background-position: right top ;
+	}
+
+	50% {
+		background-position: right bottom;
+	}
+
+	75% {
+		background-position: left top;
+	}
 }

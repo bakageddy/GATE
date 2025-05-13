@@ -1,0 +1,30 @@
+package templates
+
+import (
+	"github.com/bakageddy/gate/types"
+)
+
+templ Bar(bar types.Bar) {
+<div class="bar__logo">
+	GATE
+</div>
+<nav>
+	<ul>
+		<li>
+			<a href={ templ.SafeURL(bar.Links["pyq"]) }>
+				Previous Year Questions
+			</a>
+		</li>
+		<li>
+			<a href={ templ.SafeURL(bar.Links["notes"])}>
+				Notes
+			</a>
+		</li>
+		<li>
+			<a href={templ.SafeURL(bar.Links["about"])}>
+				About Me
+			</a>
+		</li>
+	</ul>
+</nav>
+}

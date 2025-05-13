@@ -1,35 +1,45 @@
 package templates
 
-var gruvbox_black = "#1d2021";
-var gruvbox_white = "#ebdbb2";
+import (
+	"github.com/bakageddy/gate/types"
+)
 
-css a() {
-	text-decoration: unset;
-	color: gruvbox_white;
-}
-
-css navbar() {
-	background-color: gruvbox_black;
-	display: flexbox;
-}
-
-templ Home() {
+templ Home(app types.Application) {
+	<!DOCTYPE html>
 	<html>
 		<head>
-			<script src="https://unpkg.com/htmx.org@2.0.0"></script>
-			<link rel="stylesheet" href="/static/index.css"></link>
+			<script src="https://unpkg.com/htmx.org"></script>
+			<link rel="preconnect" href="https://fonts.googleapis.com"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+			<link
+				href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+				rel="stylesheet"
+			/>
+			<link rel="stylesheet" href="/static/index.css"/>
+			<link rel="stylesheet" href="/static/bar.css"/>
 			<title>GATE</title>
 		</head>
 		<body>
-			<div class={ navbar().ClassName() }>
-				<a class={ a().ClassName() } href="/static/notes/">
-					Notes
-				</a>
-
-				<a href="/static/pyqp">
-					PYQ
-				</a>
-			</div>
+			<header class="bar">
+				@Bar(app.Bar)
+			</header>
+			<main class="content">
+				<section class="container">
+					<div class="opener-container">
+						<h1 class="opener">
+							All your GATE Resources.<br>
+							In one place.<br>
+						</h1>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<section class="container">
+					<h1>
+						Licensing and other copyright stuff
+					</h1>
+				</section>
+			</footer>
 		</body>
 	</html>
-} 
+}
